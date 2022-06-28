@@ -16,7 +16,7 @@
     </v-app-bar>
     <v-main  :color="$vuetify.theme.dark ='Black' ">
 
-   <div class="container ms-20"  >
+   <div class="container mb-0 "  >
     <v-container  fluid class=""
       :color="$vuetify.theme.dark ='Black' "
     >
@@ -54,7 +54,7 @@
         </v-card>
     </v-container>
 
-    <v-container  fluid class=" d-inline-flex "  >
+    <v-container  fluid class=" d-inline-flex ma-0 pa-0 "  >
       <div class=" d-inline-flex   " style=" width: 50%; ">
       <img class="pa-2 " style="width: 3rem;height: 3rem; " :src="require('./logos/walleticon.png')"/>
       <div class="d-block-flex  pa-2 " ><h5 class="font-weight-bold" style="margin: auto;">KEN <img style="width: 25%;height: auto;" :src="require('./logos/vipicon.png')"/></h5>
@@ -69,17 +69,13 @@
           </p>
         
       </div>
-      <!-- <div>
-        <span style="padding-right:3px; padding-top: 3px; display:inline-block;">
-        <img class="" style="width: 30%;height: auto; " :src="require('./logos/alerticon.png')"/></span>
-        <p>DRAGON FESTIVAL IS ON NOW! PRIZE POOL IS $2,000,000</p>  
-      </div> -->
+
       </div>
     </v-container>
 
-    <v-container  fluid class="d-inline-flex " >
+    <v-container  fluid class="d-inline-flex  mb-0 pa-0" >
       
-       <div class=" d-block-flex pa-1 " style=" width: 20%;">
+       <div class=" d-block-flex mb-0" style=" width: 20%; white">
         <img class=" d-block mt-2 " style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/usedicon.png')"/>
         <img class=" d-block mt-4" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/liveicon.png')"/>
         <img class=" d-block mt-4" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/sporticon.png')"/>
@@ -87,11 +83,11 @@
         <img class=" d-block mt-4" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/pokericon.png')"/>
         <img class=" d-block mt-4" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/gameicon.png')"/>
     </div>
-       <div class="d-block-flex pa-2 " style=" width: 80%;">
-        <img class=" d-block pa-1  rounded-lg" style=" width: 100%;height: auto; flex-wrap: nowrap; " :src="require('./logos/posterimage1.png')"/>
-        <img class=" d-block pa-1 rounded-lg" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/posterimage2.png')"/>
-        <img class=" d-block pa-1 rounded-lg" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/posterimage3.png')"/>
-        <img class=" d-block pa-1 rounded-lg" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/posterimage4.png')"/>
+       <div class="d-block-flex mb-0 " style=" width: 100%;">
+        <img class=" d-block ma-1 pa-1 rounded-lg" style=" width: 100%;height: auto;" :src="require('./logos/posterimage1.png')"/>
+        <img class=" d-block  ma-1 pa-1 rounded-lg" style=" width: 100%;height: auto; " :src="require('./logos/posterimage2.png')"/>
+        <img class=" d-block  ma-1 pa-1 rounded-lg" style=" width: 100%;height: auto;" :src="require('./logos/posterimage3.png')"/>
+        <img class=" d-block  ma-1 pa-1 pb-0 mb-0 rounded-lg" style=" width: 100%;height: auto;" :src="require('./logos/posterimage4.png')"/>
     </div>
     </v-container>
     </div>
