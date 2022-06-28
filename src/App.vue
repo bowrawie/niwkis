@@ -16,8 +16,8 @@
     </v-app-bar>
     <v-main  :color="$vuetify.theme.dark ='Black' ">
 
-   
-    <v-container  class="black"
+   <div class="container ms-20"  >
+    <v-container  fluid class=""
       :color="$vuetify.theme.dark ='Black' "
     >
 
@@ -28,9 +28,7 @@
         <div style="margin-top:5%; "><p class="font-weight-light" style="color:yellow; align-items: center;">Hot Games</p></div>   
         <v-card elevation="0" >
            <div class="overflow-x-auto" style="margin:auto;   display: block; margin-left: auto; margin-right: auto;width: 100%;height: auto;">
-        
-     
-    <v-card
+        <v-card
       class="d-flex justify-center"
       :color="$vuetify.theme.dark ='Black'"
       flat
@@ -56,17 +54,17 @@
         </v-card>
     </v-container>
 
-    <v-container  class=" d-inline-flex black"  >
+    <v-container  fluid class=" d-inline-flex "  >
       <div class=" d-inline-flex   " style=" width: 50%; ">
-      <img class="pa-2 " style="width: 30%;height: auto; " :src="require('./logos/walleticon.png')"/>
-      <div class="d-block-flex  pa-2 " ><p class="font-weight-light" style="margin: auto;">KEN <img style="width: 25%;height: auto;" :src="require('./logos/vipicon.png')"/></p>
-      <div class="d-block-flex  "><p class="font-weight-light" style="margin: auto;">$ 26,666.08</p></div>
+      <img class="pa-2 " style="width: 3rem;height: 3rem; " :src="require('./logos/walleticon.png')"/>
+      <div class="d-block-flex  pa-2 " ><h5 class="font-weight-bold" style="margin: auto;">KEN <img style="width: 25%;height: auto;" :src="require('./logos/vipicon.png')"/></h5>
+      <div class="d-block-flex  "><p class="font-weight-bold" style="margin: auto;">$ 26,666.08</p></div>
       </div>
       </div>
       <div class="d-inline-flex pa-1  " style=" width: 50%; ">
         <!-- <img class="pa-2 " style="width: 10%;height: auto; " :src="require('./logos/walleticon.png')"/> -->
         <div class="d-block-flex  pa-1 " >
-          <p class="font-weight-light" style="margin: auto; font-size: 10px;"><img style="width: 10%;height: auto;" :src="require('./logos/alerticon.png')"/>
+          <p class="font-weight-thin" style="margin: auto; font-size: 10px;"><img style="width: 10%;height: auto;" :src="require('./logos/alerticon.png')"/>
           <br/>DRAGON FESTIVAL IS ON NOW! PRIZE POOL IS $2,000,000
           </p>
         
@@ -79,10 +77,10 @@
       </div>
     </v-container>
 
-    <v-container  class="d-inline-flex black" >
+    <v-container  fluid class="d-inline-flex " >
       
        <div class=" d-block-flex pa-1 " style=" width: 20%;">
-        <img class=" d-block mt-2" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/usedicon.png')"/>
+        <img class=" d-block mt-2 " style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/usedicon.png')"/>
         <img class=" d-block mt-4" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/liveicon.png')"/>
         <img class=" d-block mt-4" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/sporticon.png')"/>
         <img class=" d-block mt-4" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/lotteryicon.png')"/>
@@ -96,6 +94,7 @@
         <img class=" d-block pa-1 rounded-lg" style=" width: 100%;height: auto; flex-wrap: nowrap;" :src="require('./logos/posterimage4.png')"/>
     </div>
     </v-container>
+    </div>
   </v-main>
 
       <v-footer 
