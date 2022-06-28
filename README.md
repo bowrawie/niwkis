@@ -1,7 +1,7 @@
 # niwkis
 
 
-Used Vuetify so make sure to run command
+Used Vuetify, so please make sure to run command
 
 
 ```
